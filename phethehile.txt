@@ -1,0 +1,52 @@
+#Task 1
+ls
+pwd
+mkdir workspace
+cd
+touch README.md
+cp README.md CHANGELOG.md
+
+#task 2
+touch exercise.md
+mv exercise.md /tmp
+
+#task 3
+touch umuzi.md cohort.md recruit.md
+echo umuzi has been so far the best experience in my life .i must say it feels like home. >> umuzi.md
+cat umuzi.md
+echo umuzi recruits are the craziest yet most so kind and loving people,each with a unique personality >> recruits.md
+cat recruits.md
+echo cohort 16 rocks >> cohort.md
+cat cohort.md
+cat umuzi.md cohort.md recruits.md >> summary.md
+cat summary.md
+echo "THE END" >> summary.md
+cat summary.md
+
+#Task 4
+cd
+locate umuzi
+locate umuzi >> search_result.md
+cat search_result.md
+
+#Task 5
+cd Documents
+touch pad.md
+cd
+cd Desktop
+mkdir work
+cp /home/recruit/Documents/pad.md /home/recruit/Desktop/pad_copy.md
+locate updatedb
+cd-
+locate pad_copy.md
+
+#Task 6
+locate 'pdf'
+locate 'pdf' >> Documents
+cat Documents
+
+#task 7
+nano my_bio.md
+#save the file and close the editor
+mkdir my_files
+mv my_bio.md my_files
